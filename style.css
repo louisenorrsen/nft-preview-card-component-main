@@ -1,0 +1,81 @@
+:root {
+    /* Colors */
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --dark-blue-main-bg: hsl(217, 54%, 11%);
+    --dark-blue-card-bg: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    /* Typography */
+    --font-size: 18px;
+    --font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    background-color: var(--dark-blue-main-bg);
+}
+
+.card {
+    font-family: var(--font-family);
+    background-color: var(--dark-blue-card-bg);
+}
+
+/* Tyopgraphy */
+.header {
+    color:var(--white);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.card-info {
+    color: var(--soft-blue);
+    font-size: var(--font-size);
+}
+
+.price {
+    color: var(--cyan);
+}
+
+.time-left {
+    color: var(--soft-blue);
+}
+
+/* Design and sizing */
+
+.item {
+    width: 278px;
+    border-radius: 8px;
+}
+
+.card {
+    padding: 24px;
+    border-radius: 15px;
+}
+
+.avatar {
+    width: 33px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+
+/* Active */
+
+.link:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.item:hover {
+    background-image: url(./images/icon-view.svg);
+    z-index: 100;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
