@@ -67,6 +67,7 @@ main {
 
 .price {
     color: var(--cyan);
+    font-weight: 600;
 }
 
 .time-left {
@@ -108,13 +109,17 @@ main {
 }
 
 .details {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .footer {
-    margin-top: 15px;
+    margin-top: 20px;
     border-top: 3px solid var(--dark-blue-line);
     padding-top: 15px;
+}
+
+.footer .link {
+    margin-left: 5px;
 }
 
 .avatar {
