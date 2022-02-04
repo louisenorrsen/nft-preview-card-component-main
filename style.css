@@ -39,6 +39,13 @@ main {
     justify-content: space-between;
 }
 
+.price,
+.time-left {
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .footer {
     display: flex;
     align-items: center;
@@ -94,7 +101,7 @@ main {
     height: 99%;
     top: 0;
     left: 0;
-    border-radius: 15px;
+    border-radius: 8px;
 }
 
 .hover:hover {
@@ -114,6 +121,7 @@ main {
 
 .footer {
     margin-top: 20px;
+    margin-bottom: 5px;
     border-top: 3px solid var(--dark-blue-line);
     padding-top: 15px;
 }
