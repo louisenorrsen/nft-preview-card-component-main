@@ -109,6 +109,10 @@ main {
     cursor: pointer;
 }
 
+.header {
+    margin: 25px 0;
+}
+
 .card {
     padding: 24px;
     border-radius: 15px;
@@ -116,12 +120,12 @@ main {
 }
 
 .details {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .footer {
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 8px;
     border-top: 3px solid var(--dark-blue-line);
     padding-top: 15px;
 }
