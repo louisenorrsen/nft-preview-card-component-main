@@ -18,6 +18,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: var(--dark-blue-main-bg);
+}
+
 main {
     display: grid;
     place-items: center;
